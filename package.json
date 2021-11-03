@@ -1,0 +1,23 @@
+{
+	"name": "web-scrapper",
+	"version": "1.0.0",
+	"description": "Simple web scrapper",
+	"main": "bot.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"author": "OXBOX",
+	"license": "ISC",
+	"devDependencies": {
+		"axios": "^0.24.0",
+		"cheerio": "^1.0.0-rc.10",
+		"express": "^4.17.1"
+	},
+	"dependencies": {
+		"discord.js": "^12",
+		"discord.js-commando": "^0.12.3",
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.14"
+	}
+}
