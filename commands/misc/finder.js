@@ -19,6 +19,17 @@ module.exports = class FinderCommands extends commando.Command {
 	}
 
 	async run(commands, info) {
+		let curInfo = info.split(' ');
+
+		switch (curInfo[0]) {
+			case 'nhentai':
+				break;
+			case 'hentaifox':
+				break;
+			case 'mangafox':
+				break;
+		}
+
 		const url = 'https://nhentai.net/g/' + info;
 		const base = 'https://nhentai.net';
 
